@@ -1,1 +1,47 @@
 /*  your css code here. If applicable */
+   body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .form-group {
+      max-width: 500px;
+      margin: 20px auto;
+    }
+    .form-group input {
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 16px;
+    }
+    #submit {
+      width: 100%;
+      padding: 10px;
+      background-color: #28a745;
+      color: white;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    table {
+      width: 80%;
+      margin: 30px auto;
+      border-collapse: collapse;
+    }
+    .table-striped th, .table-striped td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    .table-striped tbody tr:nth-child(odd) {
+      background-color: #f9f9f9;
+    }
+    .delete {
+      color: white;
+      background-color: #dc3545;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
